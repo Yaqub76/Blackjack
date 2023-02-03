@@ -8,7 +8,8 @@ Blackjack is a card game,the object of the game is to be dealt cards having a hi
 
 # Key Features
 * The game will randomize cards including King,Jack,Queen,Ace and Numbers 2-10
-* The user playing the game either can use hit or stand buttons after playing * cards were dealt
+* The user playing the game either can use hit or stand buttons after playing
+cards were dealt
 * At the end of the game there should be a winner which either is the player or the dealer(cpu)
 # MVP
 * Anmations of cards being dealt.

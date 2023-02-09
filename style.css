@@ -1,0 +1,116 @@
+h2 {
+   font-family: 'Battlestar', sans-serif;
+   color: black;
+   font-size: 60px;
+}
+/* .message{
+display: none;
+position: fixed;
+padding: 50px;
+transform: translateX(-50%);
+background-color: blueviolet;
+border: 2px solid black;
+left: 50%;
+z-index: 1000;} */
+body {
+    font-family:'Inconsolata', monospace;
+    text-align: center;
+    background: linear-gradient(purple,black);
+   height: 100vh ;
+
+}
+.button {
+    color: red;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+    animation: 2s linear infinite blink;
+  }
+  .title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Games', sans-serif;                                            
+  }
+.title.\--xl-large {
+    display: block;
+    position: relative;
+    font-size: 6rem;
+    color: red;
+}
+.title.\--xl-large:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;
+    height: 4px;
+    transform: rotate(-10deg);
+    background-color: #111;
+}
+.homepage main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+#intro img{
+height: 500px;
+width: 500px;
+padding:105px;
+}
+#dealer-cards img{
+    height: 225px;
+    width: 150px;
+    margin: 1px;
+}
+#your-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;}
+
+#hit{
+width: 100px;
+height: 50px;
+font-size: 20px;
+padding: 15px 25px;
+font-size: 24px;
+text-align: center;
+cursor: pointer;
+outline: none;
+color: #fff;
+background-color: #04AA6D;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+#hit:hover {background-color: #fa0e41}
+
+#hit:active {
+background-color: #c4109a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#stand{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    padding: 15px 20px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    }
+    #stand:hover {background-color: #fa0303}
+    
+    #stand:active {
+      background-color: #c4109a;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }

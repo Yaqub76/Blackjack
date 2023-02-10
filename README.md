@@ -17,8 +17,8 @@ cards were dealt
  * Ability to contact me if there game issue 
 # Languages Used
 *HTML
-CSS
-JavaScipt
+*CSS
+*JavaScipt
 #API I Used
 *https://www.deckofcardsapi.com/
 # Post MVP

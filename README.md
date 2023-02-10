@@ -1,5 +1,5 @@
 # Blackjack
- i wanna use the api deck of cards and use the what we did yestersday
+ I want to use an Blackjack API because this API allows for programmatic access to a virtual deck of cards and allows users to draw cards, calculate total hand value, and make decisions based on the rules of the game. 
  
  # BBlackjack 
 Blackjack is a card game,the object of the game is to be dealt cards having a higher count than those of the dealer up to but not pass 21.

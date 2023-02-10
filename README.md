@@ -15,6 +15,12 @@ cards were dealt
 * Anmations of cards being dealt.
  * Ability to Start again
  * Ability to contact me if there game issue 
+# Languages Used
+*HTML
+CSS
+JavaScipt
+#API I Used
+*https://www.deckofcardsapi.com/
 # Post MVP
 * BlackJack animation with a message saying player won
 * Cards will have animation when be dealt

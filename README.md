@@ -19,9 +19,8 @@ cards were dealt
 *HTML
 *CSS
 *JavaScipt
-
-#API I Used
-*https://www.deckofcardsapi.com/
+# API I Used
+* https://www.deckofcardsapi.com/
 # Post MVP
 * BlackJack animation with a message saying player won
 * Cards will have animation when be dealt

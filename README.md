@@ -19,6 +19,7 @@ cards were dealt
 *HTML
 *CSS
 *JavaScipt
+
 #API I Used
 *https://www.deckofcardsapi.com/
 # Post MVP

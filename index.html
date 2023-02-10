@@ -9,21 +9,69 @@
                 <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <h2>Dealer: <span id="dealer-count"></span></h2>
-<div id="dealer-cards">
-<img src="./cards/BACK.png">
-<img src="./cards/10-C.png">
+    <body class="contact"><main>
+        <div class="container">
+          <a class="button" href="contact.html">Contact me If any game bugs!</a>
+        </div>
+        <body class="rules"><main>
+            <div class="rules">
+              <a class="button" href="game.html">Check out how to play!</a>
+            </div>
+    <div id="game">
+        <div id="dealer-total">Dealer Total: <span id="dealer-total-number"></span></div>
+        <div id="player-total">Player Total: <span id="player-total-number"></span></div>
+      </div>
+    <div id="game-container">
+ <div class="dealer-section">
+    <h2>Dealer:</h2>
+    <div class="dealer-cards"></div>
+    <div class="dealer-value"></div>
+<!-- <img src="./cards/BACK.png">
+<img src="./cards/10-C.png"> -->
 </div>
-<h2>You:<span id="your-count"></span></h2>
-<div id="your-cards"></div>
-
-<!-- <div class="message">
-    <h2> You've have busted,OUT THE HOSUE</h2>
-<button class="play-again">Play again</button>
-</div> -->
-<br>
-<button id="hit">Hit</button>
-<button id="stand">Stand</button>
+<div class="player-section">
+    <h2>You:</h2>
+    <div class="player-cards"></div>
+    <div class="player-value"></div>
+  </div>
+  <div class="message">
+    <h3>BUSTED! You lost.</h3>
+    <button class="play-again">Play again</button>
+  </div>
+  <div class="winner">
+    <h3>BLACKJACK You Won.</h3>
+    <button class="play-again">Play again</button>
+  </div>
+  <div class="loser">
+    <h3>DEALER HAS BLACKJACK You lost.</h3>
+    <button class="play-again">Play again</button>
+  </div>
+  <div class="push">
+    <h3>PUSH!.</h3>
+    <button class="play-again">Play again</button>
+  </div>
+  <div class="busted">
+    <h3>DEALER BUSTED! You Won.</h3>
+    <button class="play-again">Play again</button>
+  </div>
+  <div class="won">
+    <h3>YOU WON! You have a higher total than the dealer.</h3>
+    <button class="play-again">Play again</button>
+  </div>
+  <div class="lost">
+    <h3>YOU LOST! Dealer has a higher total</h3>
+    <button class="play-again">Play again</button>
+  </div>
+  </div>
+<main>
+    <div class="clicks">
+        <button class="hit-button">Hit</button>
+        <button class="stay-button">Stay</button> 
+        </div>
+        </main>
+    
+   
+  
 <p id="results"></p>
 <script src="blackjack.js"></script>
 </body>

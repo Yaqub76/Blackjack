@@ -1,7 +1,7 @@
 h2 {
-   font-family: 'Battlestar', sans-serif;
-   color: black;
-   font-size: 60px;
+  font-family: 'Battlestar', sans-serif;
+  color: black;
+  font-size: 60px;
 }
 /* .message{
 display: none;
@@ -13,64 +13,69 @@ border: 2px solid black;
 left: 50%;
 z-index: 1000;} */
 body {
-    font-family:'Inconsolata', monospace;
-    text-align: center;
-    background: linear-gradient(purple,black);
-   height: 100vh ;
-
-}
+   font-family:'Inconsolata', monospace;
+   text-align: center;
+background: linear-gradient(to right, #6dd5ed, #2193b0);
+     height: 100vh;
+     width: 100%;
+   }
 .button {
-    color: red;
-    padding: 1rem 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 1.25rem;
-    animation: 2s linear infinite blink;
-  }
-  .title {
-    text-transform: uppercase;
-    font-size: 2rem;
-    font-family: 'Games', sans-serif;                                            
-  }
+   color: rgb(3, 3, 3);
+   padding: 1rem 1.5rem;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 1.25rem;
+   animation: 2s linear infinite blink;
+ }
+ .title {
+   text-transform: uppercase;
+   font-size: 2rem;
+   font-family: 'Games', sans-serif;                                            
+ }
 .title.\--xl-large {
-    display: block;
-    position: relative;
-    font-size: 6rem;
-    color: red;
+   display: block;
+   position: relative;
+   font-size: 6rem;
+   color: black;
 }
 .title.\--xl-large:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 60%;
-    height: 4px;
-    transform: rotate(-10deg);
-    background-color: #111;
+   content: '';
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 60%;
+   height: 4px;
+   transform: rotate(-10deg);
+   background-color: #111;
 }
 .homepage main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+ }
 
 #intro img{
 height: 500px;
 width: 500px;
 padding:105px;
 }
-#dealer-cards img{
-    height: 225px;
-    width: 150px;
-    margin: 1px;
+.dealer-cards img{
+   height: 225px;
+   width: 150px;
+   margin: 1px;
 }
-#your-cards img {
-    height: 175px;
-    width: 125px;
-    margin: 1px;}
-
-#hit{
+.player-cards img {
+   height: 175px;
+   width: 125px;
+   margin: 1px;}
+.play-again{
+ background: #8a0000;
+ color: #FFF;
+ border: 0px;
+ padding: 10px 20px;
+}
+.hit-button{
 width: 100px;
 height: 50px;
 font-size: 20px;
@@ -80,37 +85,138 @@ text-align: center;
 cursor: pointer;
 outline: none;
 color: #fff;
-background-color: #04AA6D;
+background-color: black;
 border: none;
 border-radius: 15px;
 box-shadow: 0 9px #999;
 }
-#hit:hover {background-color: #fa0e41}
+.hit-button:hover {background-color: #fa0e41}
 
-#hit:active {
+.hit-button:active {
 background-color: #c4109a;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+ box-shadow: 0 5px #666;
+ transform: translateY(4px);
 }
-#stand{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-    padding: 15px 20px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #04AA6D;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-    }
-    #stand:hover {background-color: #fa0303}
-    
-    #stand:active {
-      background-color: #c4109a;
-      box-shadow: 0 5px #666;
-      transform: translateY(4px);
-    }
+.stay-button{
+   width: 100px;
+   height: 50px;
+   font-size: 20px;
+   padding: 15px 20px;
+   font-size: 24px;
+   text-align: center;
+   cursor: pointer;
+   outline: none;
+   color: #fff;
+   background-color: black;
+   border: none;
+   border-radius: 15px;
+   box-shadow: 0 9px #999;
+   }
+   .stay-button:hover {background-color: #fa0303}
+   
+   .stay-button:active:active {
+     background-color: #c4109a;
+     box-shadow: 0 5px #666;
+     transform: translateY(4px);
+   }
+   .winner {
+     display: none;
+     position: fixed;
+     justify-content: center;
+     left: 50%;
+     z-index: 1000;
+     transform: translateX(-50%);
+     background: RGB(255,255,255,0.9);
+     padding: 50px;
+     border: 2px solid black;
+   }
+   .message {
+     display: none;
+     position: fixed;
+     justify-content: center;
+     left: 50%;
+     z-index: 1000;
+     transform: translateX(-50%);
+     background: RGB(255,255,255,0.9);
+     padding: 50px;
+     border: 2px solid black;
+   }
+   .loser {
+     display: none;
+     position: fixed;
+     justify-content: center;
+     left: 50%;
+     z-index: 1000;
+     transform: translateX(-50%);
+     background: RGB(255,255,255,0.9);
+     padding: 50px;
+     border: 2px solid black;
+   }
+   .busted{
+     display: none;
+     position:fixed;
+     justify-content: center;
+     left: 50%;
+     z-index: 1000;
+     transform: translateX(-50%);
+     background: RGB(255,255,255,0.9);
+     padding: 50px;
+     border: 2px solid black;
+   }
+   .won {
+     display: none;
+     position: fixed;
+     justify-content: center;
+     left: 50%;
+     z-index: 1000;
+     transform: translateX(-50%);
+     background: RGB(255,255,255,0.9);
+     padding: 50px;
+     border: 2px solid black;
+   }
+   .lost {
+     display: none;
+     position: fixed;
+     justify-content: center;
+     left: 50%;
+     z-index: 1000;
+     transform: translateX(-50%);
+     background: RGB(255,255,255,0.9);
+     padding: 50px;
+     border: 2px solid black;
+   }
+   .push {
+     display: none;
+     position: fixed;
+     justify-content: center;
+     left: 50%;
+     z-index: 1000;
+     transform: translateX(-50%);
+     background: RGB(255,255,255,0.9);
+     padding: 50px;
+     border: 2px solid black;
+   }
+   main {
+     max-width: 1000px;
+     margin: auto;
+     justify-content: center;
+   }
+   h3 {
+  color: black;
+  font-size: 60px;
+  font-family:'Courier New', Courier, monospace
+   }
+   #game {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 50px;
+   }
+   
+   #dealer-total, #player-total {
+     font-size: 20px;
+   }
+   
+   #dealer-total-number, #player-total-number {
+     font-weight: bold;
+   }

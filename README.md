@@ -16,9 +16,9 @@ cards were dealt
  * Ability to Start again
  * Ability to contact me if there game issue 
 # Languages Used
-*HTML
-*CSS
-*JavaScipt
+* HTML
+* CSS
+* JavaScipt
 # API I Used
 * https://www.deckofcardsapi.com/
 # Post MVP

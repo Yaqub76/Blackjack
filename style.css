@@ -18,7 +18,9 @@ body {
 background: linear-gradient(to right, #6dd5ed, #2193b0);
      height: 100vh;
      width: 100%;
+    
    }
+  
 .button {
    color: rgb(3, 3, 3);
    padding: 1rem 1.5rem;
@@ -75,6 +77,24 @@ padding:105px;
  border: 0px;
  padding: 10px 20px;
 }
+.play-again1{
+  background: #8a0000;
+  color: #FFF;
+  border: 0px;
+  padding: 10px 20px;
+ }
+ .play-again2{
+  background: #8a0000;
+  color: #FFF;
+  border: 0px;
+  padding: 10px 20px;
+ }
+ .play-again3{
+  background: #8a0000;
+  color: #FFF;
+  border: 0px;
+  padding: 10px 20px;
+ }
 .hit-button{
 width: 100px;
 height: 50px;
@@ -110,7 +130,8 @@ background-color: #c4109a;
    background-color: black;
    border: none;
    border-radius: 15px;
-   box-shadow: 0 9px #999;
+   box-shadow: 0 9px #999
+ 
    }
    .stay-button:hover {background-color: #fa0303}
    
@@ -219,4 +240,10 @@ background-color: #c4109a;
    
    #dealer-total-number, #player-total-number {
      font-weight: bold;
+   }
+   .clicks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
    }

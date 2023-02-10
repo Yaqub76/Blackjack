@@ -10,6 +10,9 @@ const loser = document.querySelector(".loser");
 const push = document.querySelector(".push");
 const main = document.querySelector("main");
 const playAgain = document.querySelector(".play-again");
+const playAgain1 = document.querySelector(".play-again1");
+const playAgain2 = document.querySelector(".play-again2");
+const playAgain3 = document.querySelector(".play-again3");
 const dealerTotalNumber = document.querySelector("#dealer-total-number");
 const playerTotalNumber = document.querySelector("#player-total-number");
 //The code createstwo arrays playerCards and dealerCards to store the cards drawn
@@ -39,6 +42,46 @@ playerCards = [];
   winner.style.display = "none";
   fetchCards(1, playerCards);
 });
+playAgain1.addEventListener('click', () => {
+    dealerTotal = 0;
+    playerTotal = 0;
+   playerCards = [];
+     dealerCards = [];
+     main.style.filter = "blur(0px)";
+     message.style.display = "none";
+     won.style.display = "none";
+     busted.style.display = "none";
+     lost.style.display = "none";
+     winner.style.display = "none";
+     fetchCards(1, playerCards);
+   });
+   playAgain2.addEventListener('click', () => {
+    dealerTotal = 0;
+    playerTotal = 0;
+   playerCards = [];
+     dealerCards = [];
+     main.style.filter = "blur(0px)";
+     message.style.display = "none";
+     won.style.display = "none";
+     busted.style.display = "none";
+     lost.style.display = "none";
+     winner.style.display = "none";
+     fetchCards(1, playerCards);
+   });
+   playAgain3.addEventListener('click', () => {
+    dealerTotal = 0;
+    playerTotal = 0;
+   playerCards = [];
+     dealerCards = [];
+     main.style.filter = "blur(0px)";
+     message.style.display = "none";
+     won.style.display = "none";
+     busted.style.display = "none";
+     lost.style.display = "none";
+     winner.style.display = "none";
+     fetchCards(1, playerCards);
+   });
+//the fetch
 //the fetchCards function is used to get a specified number of cards from the API
 function fetchCards(count, targetArray, isDealer = false) {
   fetch(`${API_URL}&count=${count}`)
